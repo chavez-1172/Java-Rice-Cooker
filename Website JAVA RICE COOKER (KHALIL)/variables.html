@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Types & Variables</title>
+    <link rel="stylesheet" href="variable.css">
+</head>
+<body>
+
+    <div id="background"></div>
+
+    <h1 class="javaTitle">Java Programming Language</h1>
+
+    <div class="content-box">
+        <h2>Data Types & Variables</h2>
+
+        <p>Think of a variable as a labeled storage box in memory used to store data. In Java, you must declare what kind of data fits inside the box (its data type).</p>
+        
+        <ul>
+            <li>For instance, a dog is an animal, a banana is a fruit, and a cucumber is a vegetable.</li>
+            <li>The same logic applies to variables and data types. Each data type can only accept a value that fits into their category.</li>
+        </ul>
+
+        <div class="image-container">
+            <img src="Data types.png" alt="Variables as Boxes" class="content-img">
+        </div>
+
+        <h2>1. Primitive Types (Direct Values)</h2>
+        <p>These types of variables hold single, basic pieces of data.</p>
+        <p><strong>int (Integers):</strong> Holds whole numbers only as values.</p>
+        <p>Example: <code style="color: #79c0ff; font-family: pixelFont;">int watermelonSlices = 8;</code></p>
+        <p><strong>double (Decimals):</strong> Holds numbers that contain decimals as values.</p>
+        <p>Example: <code style="color: #79c0ff; font-family: pixelFont;">double catWeight = 4.5;</code></p> 
+        <p><strong>char (Single Character):</strong> One letter or symbol enclosed in 'single quotes'.</p>
+        <p>Example: <code style="color: #79c0ff; font-family: pixelFont;">char rank = 'S';</code></p>
+        <p><strong>boolean (True/False):</strong> A simple on/off or true/false switch.</p>
+        <p>Example: <code style="color: #79c0ff; font-family: pixelFont;">boolean amlHungry = true;</code></p>
+
+        <h2>Sample Code</h2>
+        <div class="code-box" style="background: #111a33; border: 2px solid #2d3b59; padding: 12px; margin: 12px 0; border-radius: 4px; text-align: left; overflow-x: auto;">
+            <pre style="font-family: pixelFont, monospace; font-size: 16px; color: #79c0ff; line-height: 1.6;">class sample {
+    public static void main(String[] args) {
+        String mimmingName = "Momo";
+        int age = 3;
+        double weight = 4.2;
+        boolean lovesFood = true;
+
+        System.out.println(mimmingName + " is " + age + " years old.");
+        System.out.println("Loves food? " + lovesFood);
+    }
+}</pre>
+        </div>
+
+        <p><strong>OUTPUT:</strong></p>
+        <div class="output-box" style="background: #111a33; border: 2px solid #2d3b59; padding: 12px; margin: 12px 0; border-radius: 4px; text-align: left; overflow-x: auto;">
+            <pre style="font-family: pixelFont, monospace; font-size: 16px; color: #56d364; line-height: 1.6;">Momo is 3 years old.
+Loves food? true</pre>
+        </div>
+
+        <h2>2. Reference Types (Complex Data)</h2>
+        <p>These hold complex data or points to bigger items in memory.</p>
+        <p><strong>String:</strong> Text written in "double quotes".</p>
+        <p>Example: <code style="color: #79c0ff; font-family: pixelFont;">String mimmingName = "Momo";</code></p>
+        <p><strong>Arrays:</strong> A grouped list of items of the same type.</p>
+        <p> Example: <code style="color: #79c0ff; font-family: pixelFont;">String treats[] = {"Fish", "Chicken", "Milk"};</code></p>
+
+        <div class="image-container">
+            <img src="Reference.png" alt="Reference Types Illustration" class="content-img">
+        </div>
+
+        <p>We will be more in-depth with Arrays in another lesson. For now, you should only know what it is for.</p>
+        <p>In the code example, String concatenation connected the variables and text together into a single line.</p>
+        <p>The + operator combines these values with the text strings. Note that the additional text you want to put must be placed inside double quotation marks ("") so that the compiler recognizes them as texts.</p>
+
+        <p>Congrats on finishing the second lesson!</p>
+
+        <div class="quiz-container">
+            <button class="quiz-btn">Take Quiz!</button>
+        </div>
+    </div>
+
+</body>
+</html>
