@@ -1,2 +1,0 @@
-# Java-Rice-Cooker
-mmmmm
